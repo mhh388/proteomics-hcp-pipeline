@@ -26,3 +26,8 @@ pip install -r requirements.txt
 python src/01_parse_mztab.py
 python src/02_hcp_analysis.py --no-s3
 streamlit run src/03_dashboard.py
+## Data Download
+Raw data not included in repo due to file size.
+Download from PRIDE Archive: https://www.ebi.ac.uk/pride/archive/projects/PXD000509
+Place in data/raw/ and run: gunzip data/raw/*.gz
+

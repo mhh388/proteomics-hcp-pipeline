@@ -10,3 +10,9 @@ data/raw/*.d
 .env
 *.log
 *.db
+data/raw/*.mztab
+data/raw/*.mgf.gz
+data/raw/*.xml.gz
+data/raw/*.raw
+data/raw/*.gz
+data/processed/*.db
