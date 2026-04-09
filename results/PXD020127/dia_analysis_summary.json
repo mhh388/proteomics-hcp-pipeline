@@ -1,0 +1,28 @@
+{
+  "project": "PXD020127",
+  "acquisition_mode": "DIA (Data-Independent Acquisition)",
+  "host_cell": "CHO (Chinese Hamster Ovary)",
+  "total_proteins": 1184,
+  "conditions": [
+    "Control (Standard)",
+    "Low Dissolved Oxygen",
+    "Low Temperature",
+    "Low Temp + Low DO"
+  ],
+  "replicates_per_condition": 3,
+  "comparison_with_pxd000509": {
+    "PXD000509": {
+      "mode": "DDA",
+      "host": "E. coli",
+      "proteins": 54,
+      "psms": 220
+    },
+    "PXD020127": {
+      "mode": "DIA",
+      "host": "CHO",
+      "proteins": 1184,
+      "conditions": 4
+    },
+    "key_difference": "DIA provides comprehensive, unbiased quantification across all conditions simultaneously. DDA stochastically samples the most abundant precursors. DIA is emerging as the gold standard for HCP monitoring in biopharmaceutical QC workflows."
+  }
+}
