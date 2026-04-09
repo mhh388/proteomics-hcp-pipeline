@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/*.mzML
+data/raw/*.mzXML
+data/raw/*.raw
+data/raw/*.mgf
+data/raw/*.d
+.env
+*.log
+*.db

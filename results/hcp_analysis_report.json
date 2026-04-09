@@ -1,0 +1,89 @@
+{
+  "project": "PXD000509",
+  "dataset_title": "HCP identification in therapeutic protein purification (E. coli)",
+  "instrument": "LTQ Orbitrap Velos",
+  "search_engine": "Sequest / Proteome Discoverer v1.3",
+  "total_proteins": 54,
+  "total_psms": 220,
+  "unique_peptides": 189,
+  "mass_accuracy": {
+    "mean_ppm": -1.2363,
+    "median_ppm": -1.3234,
+    "std_ppm": 1.0643,
+    "within_5ppm": 99.49,
+    "within_10ppm": 100.0,
+    "min_ppm": -5.944,
+    "max_ppm": 3.1648
+  },
+  "charge_distribution": {
+    "2": 148,
+    "3": 65,
+    "4": 7
+  },
+  "peptide_length_stats": {
+    "mean_length": 16.08,
+    "median_length": 15.0,
+    "min_length": 8,
+    "max_length": 34,
+    "pct_7_to_25": 93.18
+  },
+  "key_hcp_findings": {
+    "bacterial_alkaline_phosphatase": {
+      "accession": "P00634",
+      "gene": "phoA",
+      "psms": 12,
+      "rank": 4,
+      "significance": "Most abundant HCP \u2014 key finding. Enzymatic activity monitored by cobas assay.",
+      "risk": "High"
+    },
+    "top_5_abundant_hcps": [
+      {
+        "uniprot_accession": "P23843",
+        "gene_name": "oppA",
+        "protein_name": "Periplasmic oligopeptide-binding protein OppA",
+        "total_psms": 24,
+        "spectral_abundance_pct": 10.909,
+        "hcp_risk": "Medium"
+      },
+      {
+        "uniprot_accession": "P0A6Y8",
+        "gene_name": "dnaK",
+        "protein_name": "Chaperone protein DnaK",
+        "total_psms": 22,
+        "spectral_abundance_pct": 10.0,
+        "hcp_risk": "High"
+      },
+      {
+        "uniprot_accession": "P23847",
+        "gene_name": "dppA",
+        "protein_name": "Dipeptide-binding protein",
+        "total_psms": 20,
+        "spectral_abundance_pct": 9.091,
+        "hcp_risk": "Medium"
+      },
+      {
+        "uniprot_accession": "P00634",
+        "gene_name": "phoA",
+        "protein_name": "Alkaline phosphatase",
+        "total_psms": 12,
+        "spectral_abundance_pct": 5.455,
+        "hcp_risk": "High"
+      },
+      {
+        "uniprot_accession": "P0A855",
+        "gene_name": "tolB",
+        "protein_name": "Tol-Pal system protein TolB",
+        "total_psms": 12,
+        "spectral_abundance_pct": 5.455,
+        "hcp_risk": "Medium"
+      }
+    ],
+    "risk_distribution": {
+      "Trace": 21,
+      "Low": 16,
+      "Medium": 11,
+      "High": 6
+    }
+  },
+  "analyzed_at": "2026-04-09T02:19:49.991180+00:00"
+}
